@@ -4,7 +4,7 @@ import java.io.Serializable;
  * Pacote de dados do jogo trafegando entre servidor e cliente.
  */
 public class Componente implements Serializable {
-    // Tipos de mensagem (renomeados, mantendo semântica)
+    // Tipos de mensagem 
     public static final int FRUIT = 1;
     public static final int PLAYER = 2;
     public static final int SCOREBOARD = 3;
